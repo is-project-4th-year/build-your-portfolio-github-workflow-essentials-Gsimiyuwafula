@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lato&display=swap');
+
+:root {
+    --primary-color: #1f2278;
+    --accent: #f17732;
+    --white-color: #ffffff;
+    --text-color: #565872;
+    --light-purple-color: #6f34fe;
+    --light-blue-color: #f4f9ff;
+    --light-grey-color: #f1f1f1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.padding-section {
+    padding: 80px 0;
+}
+
+/* Header Styles */
+.header-con {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.navbar-brand span {
+    color: var(--accent);
+}
+
+.nav-link {
+    font-size: 18px;
+    color: var(--primary-color) !important;
+    padding: 8px 15px !important;
+}
+
+.nav-link.is-active,
+.nav-link:hover {
+    color: var(--accent) !important;
+}
+
+.contact a {
+    background: var(--light-purple-color);
+    color: var(--white-color);
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.contact a:hover {
+    background: var(--accent);
+    transform: translateY(-3px);
+}
+
+/* Banner Styles */
+.banner-main-con {
+    padding: 10px 0;
+}
+
+.banner-heading h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.banner-heading h1 {
+    font-size: 60px;
+    color: var(--light-purple-color);
+    margin-bottom: 15px;
+}
+
+.banner-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.banner-buttons .generic-btn {
+    margin-bottom: 0;
+}
+
+.banner-buttons .See-btn {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.generic-btn a {
+    background: var(--light-purple-color);
+    color: var(--white-color);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.generic-btn a:hover {
+    background: var(--accent);
+    transform: translateY(-3px);
+}
+
+.See-btn {
+    color: var(--light-purple-color);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    position: relative;
+}
+
+.See-btn:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: all 0.3s ease;
+   
+}
+
+.See-btn:hover {
+    color: var(--accent);
+  
+}
+
+.See-btn:hover:after {
+    width: 100%;
+}
+
+.banner-right-con img {
+    max-width: 100%;
+    height: auto;
+}
