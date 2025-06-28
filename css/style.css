@@ -468,6 +468,18 @@ a {
     padding: 60px 0 20px;
     position: relative;
 }
+.fixed-header {
+    background: #fff;
+    z-index: 3;
+    transition: top 5s linear;
+    padding: 0 !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    animation: slide-down 0.7s;
+    box-shadow: 0 0 12px 0 #e9eefc;
+}
 
 .footer-icon {
     color: var(--light-grey-color);
