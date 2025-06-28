@@ -57,7 +57,7 @@ Below are screenshots demonstrating how I effectively used various GitHub featur
 
 ### C. Branching Strategy
 ![Branch Management](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Gsimiyuwafula/images/branches.png)
-*This screenshot illustrates my systematic branching approach with descriptive branch names such as "develop/landing-page," "enhance/skills-display," and "hotfix/mobile-optimization." Each branch represented isolated development environments for specific functionality, ensuring main branch stability throughout the development process.*
+*This screenshot illustrates my systematic branching approach with descriptive branch names such as "feature/7-add-portfolio-and-contact-section". Each branch represented isolated development environments for specific functionality, ensuring main branch stability throughout the development process.*
 
 ### D. Pull Requests
 ![Pull Request Example](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Gsimiyuwafula/images/merged.png)
